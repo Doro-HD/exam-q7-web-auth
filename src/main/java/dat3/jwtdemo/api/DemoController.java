@@ -13,7 +13,6 @@ import java.security.Principal;
 
 @RestController
 @RequestMapping("/api/demo")
-@CrossOrigin
 public class DemoController {
 
     @GetMapping("/anonymous")
